@@ -2,7 +2,7 @@
     <div class="cssload-loader"></div>
 </div>
 <div id="page" class="site">
-    <a class="skip-link screen-reader-text" href={{ "home.html#content"  | relative_url }}>Skip to content</a>
+    <a class="skip-link screen-reader-text" href={{ "/home.html#content"  | relative_url }}>Skip to content</a>
     <header id="masthead" class="site-header centered container" role="banner">
         <div class="sss-header-region">
             <div class="header-container">
@@ -10,8 +10,8 @@
 
                     <div class="header-flex-container">
                         <div class="header_left_text">
-                            <a class="site-logo__link" href={{ "/home/"  | relative_url }} target="_self"><img
-                                    src="wp-content/uploads/2017/01/logo.png" alt="Svetelana Skin Care"
+                            <a class="site-logo__link" href={{ "/"  | relative_url }} target="_self"><img
+                                    src={{ "wp-content/uploads/2017/01/logo.png" | relative_url }} alt="Svetelana Skin Care"
                                     class="site-link__img" width="252" height="98"></a> </div>
 
                         <div class="site-branding">
@@ -40,7 +40,7 @@
                             <ul id="main-menu" class="menu">
                                 <li id="menu-item-2822"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-65 current_page_item menu-item-2822">
-                                    <a href="home" aria-current="page">Home</a></li>
+                                    <a href={{ "/home/" | relative_url }} aria-current="page">Home</a></li>
                                 <li id="menu-item-2271"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2271">
                                     <a href={{ "/services/"  | relative_url }}>Services</a>
@@ -112,14 +112,14 @@
                                         <li id="menu-item-2344" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2344"><a href={{ "/treatments/hair-reduction/"  | relative_url }}>Hair Reduction</a></li>
                                     </ul>
                                 </li>
-                                <li id="menu-item-2269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2269"><a href={{ "/results/"  | relative_url }}>Results</a></li>
+                                <li id="menu-item-2269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2269"><a href={{ "/home/results/"  | relative_url }}>Results</a></li>
                                 <li id="menu-item-2268" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2268"><a href={{ "/specials/"  | relative_url }}>Specials</a></li>
                                 <li id="menu-item-2267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2267"><a href={{ "/about-us/"  | relative_url }}>About Us</a></li>
-                                <li id="menu-item-2266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2266"><a href={{ "/contact-us/"  | relative_url }}>Contact Us</a></li>
+                                <li id="menu-item-2266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2266"><a href={{ "/home/contact-us/"  | relative_url }}>Contact Us</a></li>
                             </ul>
                         </nav><!-- #site-navigation -->
                         <div class="header__search">
-                            <form role="search" method="get" class="search-form" action={{ "/home/"  | relative_url }}>
+                            <form role="search" method="get" class="search-form" action={{ "/"  | relative_url }}>
                                 <div class="search-form_input_wr">
                                     <label>
                                         <span class="screen-reader-text">Search for:</span>

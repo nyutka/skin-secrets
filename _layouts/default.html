@@ -3,14 +3,14 @@
 
   {% include head.html %}
 
-  <body>
+  <body {% if page.bodyClass %} class="{{ page.bodyClass }}" {% endif %}>
 
     {% include header.html %}
 
-	{{ content }}
-    
+    {{ content }}
+      
     {% include footer.html %}
-    
+      
     {% include foot.html %}
 
   </body>
