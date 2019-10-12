@@ -1,10 +1,10 @@
 {% if page.accordion == true %}
 
 <link rel='stylesheet' id='arconix-faq-css'
-href={{ '/wp-content/plugins/arconix-faq/includes/css/arconix-faq.css'
+href={{ '/wp-content/plugins/arconix-faq/includes/css/arconix-faq.css' | relative_url }}
 type='text/css' media='all' />
 <link rel='stylesheet' id='jquery-ui-smoothness-css'
-href={{ '/wp-content/plugins/arconix-faq/includes/css/themes/smoothness/jquery.ui.theme.css'
+href={{ '/wp-content/plugins/arconix-faq/includes/css/themes/smoothness/jquery.ui.theme.css' | relative_url }}
 type='text/css' media='all' />
 <script type='text/javascript'>
 /* <![CDATA[ */
@@ -30,7 +30,7 @@ var wpcf7 = { "apiSettings": { "root": "http:\/\/s-skinsecrets.com\/wp-json\/con
 <script type='text/javascript'
 src={{ '/wp-content/plugins/contact-form-7/includes/js/scripts.js' | relative_url }}></script>
 <script type='text/javascript'
-src='https://www.google.com/recaptcha/api.js?render=6LeWELcUAAAAABmMfqSvnVtg0LSYGVNpEc41mOsc&#038;ver=3.0' | relative_url }}></script>
+src='https://www.google.com/recaptcha/api.js?render=6LeWELcUAAAAABmMfqSvnVtg0LSYGVNpEc41mOsc&#038;ver=3.0'></script>
 <script type='text/javascript' src={{ '/wp-includes/js/hoverIntent.min.js' | relative_url }}></script>
 <script type='text/javascript'
 src={{ '/wp-content/themes/madeleine/assets/js/super-guacamole.min.js' | relative_url }}></script>
@@ -190,7 +190,7 @@ src={{ '/wp-content/plugins/arconix-faq/includes/js/arconix-faq.js' | relative_u
 
 		.tm_pb_builder #tm_builder_outer_content .tm_pb_link_box_11.tm_pb_link_box {
 			font-size: 16px;
-			background-image: url{{ (/wp-content/uploads/2018/12/FullSizeRender.jpg);
+			background-image: url(/wp-content/uploads/2018/12/FullSizeRender.jpg);
 		}
 
 		.tm_pb_builder #tm_builder_outer_content .tm_pb_link_box_7.tm_pb_link_box h2,
@@ -339,7 +339,7 @@ src={{ '/wp-content/plugins/arconix-faq/includes/js/arconix-faq.js' | relative_u
 
 		.tm_pb_builder #tm_builder_outer_content .tm_pb_link_box_5.tm_pb_link_box {
 			font-size: 16px;
-			background-image: url{{ (/wp-content/uploads/2018/12/FullSizeRender.jpg);
+			background-image: url(/wp-content/uploads/2018/12/FullSizeRender.jpg);
 		}
 
 		.tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_0 .tm_pb_main_blurb_image img {
