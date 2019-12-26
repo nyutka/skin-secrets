@@ -41,22 +41,21 @@ header {
     box-shadow: 1px 0 4px #555;
     min-width:260px;
 }
-
-/* header - buttons */
-.sss-header-region .header_left_text {
-    width: 320px;
+.sss-header-region .header_left_text img {
+  width: 200px;
+  height: auto;
 }
 
 @media only screen and (max-width : 767px) {
   .sss-header-region .header_left_text {
-    margin: auto;
-    margin-bottom: 20px;
+    float: right;
   }
-}
-
-.sss-header-region .header_left_text img {
-    width: 100%;
-    height: auto;
+  .site-header.centered .header-container .header-container_wrap .header-flex-container {
+    display: block;
+  }
+  .sss-header-region .header_left_text img {
+    width: 150px;
+  }
 }
 
 .sss-header-region .header_right_text {
@@ -69,19 +68,24 @@ header {
     font-weight: bold;
     padding: 6px 14px;
     margin-bottom: 6px;
-    min-width: 260px;
+    min-width: 200px;
+    font-size: 14px;
 }
 
 /* header -- hours */
-.header-hours,
+.header-hours {
+  color: #18479b;
+  font-size: 13px;
+  margin: 0;
+}
 .header-fb {
   background-color: #6c9f41;
   color: #fff;
   padding: 6px;
-  font-size: 14px;
+  font-size: 12px;
   border-radius: 40px;
   margin-top: 0;
-  width: 260px;
+  width: 200px;
   margin: auto;
   margin-bottom: 6px;
 }
@@ -113,11 +117,9 @@ header {
   display: inline-block;
 }
 
-@media only screen and (max-width : 979px) {
+@media only screen and (max-width : 992px) {
   .sss-header-region .header_right_text {
-      position: absolute;
-      right: 20px;
-      top: 30px;
+      display: none;
   }
 
 @media only screen and (max-width : 767px) {
@@ -156,7 +158,7 @@ header {
   color: #18479b;
 }
 
-@media only screen and (max-width : 979px) {
+@media only screen and (max-width : 992px) {
 .header-container_wrap.container {
     padding: 0 !important;
   }
