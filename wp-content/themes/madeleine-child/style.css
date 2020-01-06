@@ -335,8 +335,8 @@ body.page-id-65 .sss-main-content h2 { border:none; }
 }
 
 .tm_pb_section_1 {
-  background-color:#e8e8e8 !important;
-  padding: 30px 0 50px;
+  background-color:#e8e2e25c !important;
+  padding: 30px 0 30px;
 }
 
 .tm_pb_section_1 h2 a:hover {
@@ -449,7 +449,6 @@ body.page-id-65 .sss-main-content h2 { border:none; }
 
 .tm_pb_builder #tm_builder_outer_content .tm_pb_section_3 h4 {
   color: #18479b;
-  margin-top: 60px;
 }
 
 /* subpages */
